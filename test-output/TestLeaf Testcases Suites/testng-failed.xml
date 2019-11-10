@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestLeaf Testcases Suites]">
+  <test thread-count="5" name="TestLeaf Testcases(failed)">
+    <classes>
+      <class name="week5.day1.CreateLeadAssignment">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="runCreateLead"/>
+        </methods>
+      </class> <!-- week5.day1.CreateLeadAssignment -->
+    </classes>
+  </test> <!-- TestLeaf Testcases(failed) -->
+</suite> <!-- Failed suite [TestLeaf Testcases Suites] -->

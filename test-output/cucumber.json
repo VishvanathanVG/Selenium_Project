@@ -1,0 +1,577 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6399129606,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the chrome browser for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.openTheChromeBrowserForDuplicateLead()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1174654379,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Maximise the browser for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.maximiseTheBrowserForDuplicateLead()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 504065014,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the URL for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.enterTheURLForDuplicateLead()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-09T05:46:14.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1441762,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.preScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Duplicate Lead Testcases",
+        "description": "",
+        "id": "duplicate-lead-test-scenarios;duplicate-lead-testcases;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 383019,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 443521676,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Duplicate Lead Enter the username as DemoSalesManager",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DemoSalesManager",
+                  "offset": 37
+                }
+              ],
+              "location": "DuplicateLeadStepsExamples.duplicateLeadEnterTheUsernameAsUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196474580,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Duplicate Lead Enter the password as crmsfa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crmsfa",
+                  "offset": 37
+                }
+              ],
+              "location": "DuplicateLeadStepsExamples.duplicateLeadEnterThePasswordAsPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371509926,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on login button for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnLoginButtonForDuplicateLead()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3210312130,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Crmsfa for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnCrmsfaForDuplicateLead()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2280709288,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on the Leads links",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnTheLeadsLinks()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1716131315,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on the find leads links",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnTheFindLeadsLinks()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 279737165,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Email button in find lead page",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnEmailButtonInFindLeadPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189695999,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter the email id as @gmail.com in find lead page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "DuplicateLeadStepsExamples.enterTheEmailIdAsGmailComInFindLeadPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169818401,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click on the find leads button to get leads data",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnTheFindLeadsButtonToGetLeadsData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4487665379,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Capture the name of first resulting lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.captureTheNameOfFirstResultingLead()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1411628846,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on Duplicate lead button in view lead page",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnDuplicateLeadButtonInViewLeadPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44130156,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify the view lead page titles as Duplicate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Duplicate",
+                  "offset": 36
+                }
+              ],
+              "location": "DuplicateLeadStepsExamples.verifyTheViewLeadPageTitles(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2951895556,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on the create lead button",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnTheCreateLeadButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 225764273,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Confirm the duplicated lead name as captured name",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.confirmTheDuplicatedLeadNameAsCapturedName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2151107513,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Close the browser for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.closeTheBrowserForDuplicateLead()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5670801606,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the chrome browser for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.openTheChromeBrowserForDuplicateLead()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1215882948,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Maximise the browser for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.maximiseTheBrowserForDuplicateLead()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 883319896,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the URL for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.enterTheURLForDuplicateLead()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-09T05:46:42.648Z",
+        "before": [
+          {
+            "result": {
+              "duration": 334167,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.preScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Duplicate Lead Testcases",
+        "description": "",
+        "id": "duplicate-lead-test-scenarios;duplicate-lead-testcases;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 231535,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 369448682,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Duplicate Lead Enter the username as DemoSalesManager",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DemoSalesManager",
+                  "offset": 37
+                }
+              ],
+              "location": "DuplicateLeadStepsExamples.duplicateLeadEnterTheUsernameAsUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189537126,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Duplicate Lead Enter the password as crmsfa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "crmsfa",
+                  "offset": 37
+                }
+              ],
+              "location": "DuplicateLeadStepsExamples.duplicateLeadEnterThePasswordAsPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 313740913,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on login button for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnLoginButtonForDuplicateLead()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2424737716,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Crmsfa for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnCrmsfaForDuplicateLead()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1282790237,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on the Leads links",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnTheLeadsLinks()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1569195553,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on the find leads links",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnTheFindLeadsLinks()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264567463,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Email button in find lead page",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnEmailButtonInFindLeadPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129203156,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter the email id as @ in find lead page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@",
+                  "offset": 22
+                }
+              ],
+              "location": "DuplicateLeadStepsExamples.enterTheEmailIdAsGmailComInFindLeadPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160295873,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click on the find leads button to get leads data",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnTheFindLeadsButtonToGetLeadsData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4120194605,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Capture the name of first resulting lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.captureTheNameOfFirstResultingLead()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2008377164,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on Duplicate lead button in view lead page",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnDuplicateLeadButtonInViewLeadPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149358268,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify the view lead page titles as Duplicate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Duplicate",
+                  "offset": 36
+                }
+              ],
+              "location": "DuplicateLeadStepsExamples.verifyTheViewLeadPageTitles(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3209278019,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on the create lead button",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.clickOnTheCreateLeadButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116557768,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Confirm the duplicated lead name as captured name",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.confirmTheDuplicatedLeadNameAsCapturedName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2149486762,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Close the browser for duplicate lead",
+            "match": {
+              "location": "DuplicateLeadStepsExamples.closeTheBrowserForDuplicateLead()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Duplicate Lead Test Scenarios",
+    "description": "",
+    "id": "duplicate-lead-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featuresExamples/DuplicateLeadScenarioOutline.feature",
+    "tags": []
+  }
+]

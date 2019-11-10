@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RedBus Automation Test Suite">
+<parameter name="url" value="https://www.redbus.in/" ></parameter>
+  <test thread-count="5" name="Redbus TestCases" verbose="5">
+    <classes>
+      <class name="com.redbus.testcases.RedBus"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

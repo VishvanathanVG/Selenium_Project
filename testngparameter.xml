@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestLeaf Automation Suite Using Excel Data Provider" verbose="5" >
+<parameter name="url" value="http://leaftaps.com/opentaps/control/main" ></parameter>
+<parameter name="username" value="DemoSalesManager" ></parameter>
+<parameter name="password" value="crmsfa" ></parameter>
+  <test thread-count="5" name="TestLeaf Lead Testcases using Excel Data Provider ">
+    <classes>
+   	 <class name="week5.day2.CreateLeadFullExcelDataProvider"/>
+      <class name="week5.day2.EditLeadFullExcelDataProvider"/>
+      	<class name="week5.day2.DuplicateLeadFullExcelDataProvider"/>
+      	 <class name="week5.day2.DeleteLeadFullExcelDataProvider"/>
+      	  <class name="week5.day2.MergeLeadFullExcelDataProvider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

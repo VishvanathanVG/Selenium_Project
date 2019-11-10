@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon Automation Test Suite">
+<parameter name="url" value="https://www.amazon.in/" ></parameter>
+  <test thread-count="5" name="Amazon TestCases" verbose="5">
+    <classes>
+      <class name="com.amazon.testcases.Amazon"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

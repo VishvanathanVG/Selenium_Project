@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RedBus Automation Test Suite]">
+  <parameter name="url" value="https://www.redbus.in/"/>
+  <test thread-count="5" name="Redbus TestCases(failed)">
+    <classes>
+      <class name="com.redbus.testcases.RedBus">
+        <methods>
+          <include name="runRedBus" invocation-numbers="1"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.redbus.testcases.RedBus -->
+    </classes>
+  </test> <!-- Redbus TestCases(failed) -->
+</suite> <!-- Failed suite [RedBus Automation Test Suite] -->
